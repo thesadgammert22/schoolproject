@@ -102,6 +102,10 @@ body {
   padding:25px;
 }
 
+img {
+  right: 100px;
+}
+
   header { 
   background: rgba(0,0,0,.8); 
   color:#FFFFFF; 
