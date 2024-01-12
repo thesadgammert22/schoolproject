@@ -91,11 +91,6 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
-html {
-  background:rgba(0,0,0,.8);
-  color:#FFFFFF;
-  background-size:cover;
 }
 body {
   max-width:800px;
@@ -105,6 +100,12 @@ header, #content, footer {
   background: rgba(0,0,0,.8); 
   padding:25px;
   color:#FFFFFF; 
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height:100%;
+  width:100%;
 }
 
   #content { 
