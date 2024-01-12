@@ -102,8 +102,16 @@ body {
 }
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
-  padding:cover;
+  padding:25px;
   color:#FFFFFF; 
+}
+
+  #content { 
+  background:rgba(0,0,0,.8); 
+  color:#FFFFFF; 
+  height:100%;
+  width:100%;
+  object-fit:cover;
 }
 
 /* Menu Links */
