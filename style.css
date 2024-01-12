@@ -119,8 +119,19 @@ body {
 footer { 
   background: rgba(0,0,0,.8); 
   color:#FFFFFF;
-  display: flex;
-  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
 
  
