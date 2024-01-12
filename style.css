@@ -123,11 +123,14 @@ img {
 }
 
 h1 {text-align: center;
-height:-300px;}
+height:300px;
+font-size: 100px;}
 p {text-align: center;
-height:-300px;}
+height:300px;
+font-size: 100px;}
 div {text-align: center;
-height:-300px;}
+height:300px;
+font-size: 100px;}
 
   header { 
   background: rgba(0,0,0,.8); 
