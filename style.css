@@ -110,7 +110,7 @@ img {
   margin-right: auto;
 }
 
-content-region-hide{
+{
    margin: 0;
   padding: 0;
   display: flex;
@@ -121,6 +121,10 @@ content-region-hide{
   font-size:4.0rem;
   color:#cfd2da;
 }
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
 
   header { 
   background: rgba(0,0,0,.8); 
