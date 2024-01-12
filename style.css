@@ -110,7 +110,7 @@ img {
   margin-right: auto;
 }
 
-about, contact, home{
+content-region hide{
   display: block;
   margin-left: auto;
   margin-right: auto;
