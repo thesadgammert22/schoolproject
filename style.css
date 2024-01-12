@@ -143,7 +143,7 @@ footer {
   bottom: 0;
   width: 100%; 
   position: fixed;
-  height: 35;   /* Height of the footer */
+  height: 25;   /* Height of the footer */
 }
 
 ul.main-menu:hover {
