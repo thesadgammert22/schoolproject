@@ -110,7 +110,17 @@ img {
   margin-right: auto;
 }
 
-
+{
+   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  list-style: none;
+  margin-right:20px;
+  font-size:4.0rem;
+  color:#cfd2da;
+}
 
 h1 {text-align: center;
 height:300px;
