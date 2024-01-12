@@ -122,9 +122,12 @@ img {
   color:#cfd2da;
 }
 
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
+h1 {text-align: center;
+up:300px;}
+p {text-align: center;
+up:300px;}
+div {text-align: center;
+up:300px;}
 
   header { 
   background: rgba(0,0,0,.8); 
