@@ -181,10 +181,6 @@ ul.main-menu li a {
 ul.main-menu li a:hover {
   color:#FFFFFF;
 }
-ul.main-menu li a.active {
-  color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
-}
 
 /* Utility classes */
 .hide {
@@ -193,5 +189,4 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-
 
