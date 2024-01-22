@@ -157,7 +157,7 @@ footer {
   height: 25;   /* Height of the footer */
 }
 
-div.product1::before {
+store.product1::before {
    content:url(https://i.ibb.co/4JDFDBf/download-1-png.png);
 }
 
