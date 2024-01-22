@@ -111,10 +111,35 @@ img {
 }
 
 #product1 {
-  width:700px; 
-  height:300px;
+  width:400px; 
+  height:250px;
+  position: relative; 
+  top: 560px;
+  border: 7px solid #FFFF;
+  left:-300px;
+
+}
+
+#product2 {
+  width:400px; 
+  height:250px;
   position: relative; 
   top: 300px;
+  border: 7px solid #FFFF;
+  left:300px;
+
+}
+
+#product1:hover {
+  border-bottom-color:#0000;
+  border-top-color:#0000;
+  transform: scale(1.1);
+}
+
+#product2:hover {
+  border-bottom-color:#0000;
+  border-top-color:#0000;
+  transform: scale(1.1);
 }
 
 {
