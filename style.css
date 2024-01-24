@@ -93,7 +93,7 @@ blockquote p:last-child {
 /* Full size background image */
 }
 body {
-  max-width:800px;
+  max-width:100%;
   margin:25px auto;
 }
   #content { 
@@ -111,49 +111,49 @@ img {
   margin-right: auto;
 }
 
+#p1{
+  color: white;
+  width:318px; 
+  position: relative;
+  top: 310px;
+  left:-300px;
+  font-size: 40px;
+  text-align: center
+}
+
 #product1 {
-  width:400px; 
-  height:250px;
+  width:318px; 
+  height:424px;
   position: relative; 
-  top: 560px;
+  top: 260px;
   border: 7px solid #FFFF;
   left:-300px;
+background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.png);
 
 }
 
 #product2 {
-  width:400px; 
-  height:250px;
+  width:318px; 
+  height:424px;
   position: relative; 
-  top: 300px;
+  top: -37px;
   border: 7px solid #FFFF;
   left:300px;
 
 }
 
 #product1:hover {
-  border-bottom-color:#0000;
-  border-top-color:#0000;
   transform: scale(1.1);
+  border: 10px solid #0000;
+  background-image: url(https://i.ibb.co/WpfdY0k/Screenshot-2024-01-24-9-15-55-AM.png);
 }
 
 #product2:hover {
-  border-bottom-color:#0000;
-  border-top-color:#0000;
   transform: scale(1.1);
+   border: 10px solid #0000;
 }
 
-{
-   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  list-style: none;
-  margin-right:20px;
-  font-size:4.0rem;
-  color:#cfd2da;
-}
+
 
 h1 {text-align: center;
 height:300px;
