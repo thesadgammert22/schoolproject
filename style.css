@@ -132,9 +132,16 @@ a {font-size: 100px}
   text-align: center
 }
 
-aboutimg{
- top: 400px;
- left: -200px;
+#aboutimg {
+   width:318px; 
+  height:424px;
+  position: relative; 
+  top: -150px;
+  border: 7px solid #FFFF;
+  left:600px;
+background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.png);
+  
+  
 }
 
 #p1{
