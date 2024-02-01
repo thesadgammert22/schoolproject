@@ -181,6 +181,7 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
   top: 260px;
   border: 7px solid #FFFF;
   left:-300px;
+   border-radius: 25px;
 background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.png);
 
 }
@@ -198,6 +199,7 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
 #product1:hover {
   
 border: 10px solid #0000;
+   border-radius: 25px;
 background-image: url(https://i.ibb.co/WpfdY0k/Screenshot-2024-01-24-9-15-55-AM.png);
 }
 
