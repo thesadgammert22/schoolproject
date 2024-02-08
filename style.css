@@ -198,42 +198,65 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
 
 #productpanimg
 {
-    width: 93%;
-    background: black;
-    padding: 5px;
-    border: #CCC solid 1px;
-    text-align: center;
-    position: fixed;
-    margin-left: -0%;
-    margin-top: -30px;
-    left: 40%;
-    display: inline-block;
+    
+    padding: 0px;
+    border: #CCC solid 5px;
     z-index:1;
-   width: 20%;
-      height: 60%;
-      max-width: 800px;
-      max-height: 600px;
-     
+    width:318px;
+    height:222px;
+    
+}
+
+#addcart
+{
+    
+    padding: 0px;
+    border: #CCC solid 5px;
+    position: absolute;
+    z-index:1;
+    width:208px;
+    height:58px;
+    font-size:30px;
+    top:250px;
+    left:200px;
   
+    
+}
+
+#buynow
+{
+    
+    padding: 0px;
+    border: #CCC solid 5px;
+    position: absolute;
+    z-index:1;
+    width:208px;
+    height:58px;
+    font-size:30px;
+    top:320px;
+    left:200px;
+  
+    
 }
 
 #productpanx
 {
-    width: 93%;
-    background: black;
+    
+    position:absolute;
     padding: 5px;
-    border: #CCC solid 1px;
+    left:90%;
+    right:;
     text-align: center;
-    position: fixed;
-    margin-left: -20%;
-    margin-top: -5px;
-    left: 87%;
+    height: 50px;
+    width:50px;
+    
+  
+   
+    
     display: inline-block;
     z-index:1;
-   width: 3%;
-      height: 10%;
-      max-width: 50px;
-      max-height: 10%;
+  
+      
      
   
 }
