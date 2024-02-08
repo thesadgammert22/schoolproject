@@ -192,18 +192,72 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
       height: 80%;
       max-width: 800px;
       max-height: 600px;
+  border-radius: 25px;
      
+  
+}
+
+#counter{
+   padding: 0px;
+    border: #CCC solid 0px;
+    position: absolute;
+    z-index:1;
+    width:130px;
+    height:28px;
+    font-size:30px;
+    top:231px;
+    left:240px;
+  border-radius: 25px;
+  color:white;
+  text-align: center;
+  vertical-align: baseline;
+  text-align: top; 
+    display: inline;   
+  
+}
+
+#minuscounter{
+   padding: 0px;
+    border: #CCC solid 5px;
+    position: absolute;
+    z-index:1;
+    width:28px;
+    height:28px;
+    font-size:30px;
+    top:234px;
+    left:400px;
+  border-radius: 25px;
+  background-color:white;
+  
+}
+
+
+
+#pluscounter{
+   padding: 0px;
+    border: #CCC solid 5px;
+    position: absolute;
+    z-index:1;
+    width:28px;
+    height:28px;
+    font-size:30px;
+    top:234px;
+    left:170px;
+  border-radius: 25px;
+  background-color:white;
   
 }
 
 #productpanimg
 {
-    
+    position:absolute;
     padding: 0px;
     border: #CCC solid 5px;
     z-index:1;
-    width:318px;
+    width:418px;
     height:222px;
+  border-radius: 25px;
+  left:84px;
     
 }
 
@@ -217,8 +271,9 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
     width:208px;
     height:58px;
     font-size:30px;
-    top:250px;
+    top:270px;
     left:200px;
+  border-radius: 25px;
   
     
 }
@@ -232,8 +287,9 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
     width:208px;
     height:58px;
     font-size:30px;
-    top:320px;
+    top:340px;
     left:200px;    
+  border-radius: 25px;
 }
 
 #productpanx
@@ -247,7 +303,7 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
     width:50px;
     display: inline-block;
     z-index:2;  
-    
+   border-radius: 25px; 
 }
 
 #blur {
