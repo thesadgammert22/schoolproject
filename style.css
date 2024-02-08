@@ -186,8 +186,8 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
     margin-left: -20%;
     margin-top: -30px;
     left: 50%;
-    display: inline-block;
-    z-index:1;
+    display: none;
+    z-index:3;
    width: 40%;
       height: 80%;
       max-width: 800px;
@@ -225,7 +225,6 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
 
 #buynow
 {
-    
     padding: 0px;
     border: #CCC solid 5px;
     position: absolute;
@@ -234,14 +233,11 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
     height:58px;
     font-size:30px;
     top:320px;
-    left:200px;
-  
-    
+    left:200px;    
 }
 
 #productpanx
 {
-    
     position:absolute;
     padding: 5px;
     left:90%;
@@ -249,16 +245,26 @@ background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.
     text-align: center;
     height: 50px;
     width:50px;
-    
-  
-   
-    
     display: inline-block;
-    z-index:1;
+    z-index:2;  
+    
+}
+
+#blur {
+ 
+  position:fixed;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  display:none;
+  height:100vh;
+  z-index:1;
   
-      
-     
-  
+  -webkit-backdrop-filter:           blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 50px;
+
 }
 
 #product1 {
