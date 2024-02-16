@@ -113,6 +113,19 @@ a {font-size: 100px}
   
   
 }
+#buscard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: -1000px;
+   border: 7px solid #FFFF;
+  
+  
+  
+}
+
+
+
 
 #a1t{
   color: white;
@@ -133,6 +146,19 @@ a {font-size: 100px}
 }
 
 #aboutimg {
+   width:318px; 
+  height:424px;
+  position: relative; 
+  top: -100px;
+  border: 7px solid #FFFF;
+  left:600px;
+   border-radius: 25px;
+background-image: url(https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.png);
+  
+  
+}
+
+#card {
    width:318px; 
   height:424px;
   position: relative; 
