@@ -1,4 +1,4 @@
-
+ 
 let counter = 0;
  
 const counterValue = document.getElementById('counter');
