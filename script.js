@@ -44,4 +44,11 @@ decrementBtn.addEventListener('click', () => {
     counter--;
     counterValue.innerHTML = counter;
 });
+
+document.addEventListener ("keydown", function (zEvent) {
+    if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "e") {  // case sensitive
+      let url = "fnfpage.html";
+      window.location.href = url;
+    }
+} );
  
