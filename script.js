@@ -45,10 +45,8 @@ decrementBtn.addEventListener('click', () => {
     counterValue.innerHTML = counter;
 });
 
-document.addEventListener ("keydown", function (zEvent) {
-    if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.key === "e") {  // case sensitive
-      alert(funny)
-      Location.replace("fnfpage.hml"); 
-    }
-} );
+document.addEventListener('keydown',function(e){
+    if(e.keyCode==48)
+        location="https://mintar.info.gf/0281/funkin.html"
+})
  
