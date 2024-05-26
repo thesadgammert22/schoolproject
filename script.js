@@ -9,42 +9,30 @@
  var blur = document.getElementById("blur");
 
  product1.addEventListener("click", function() {
-   panel.style.display = "inline-block";
-   productpanimg.src = "https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.png";
-   blur.style.display = "inline-block";
+  document.getElementById("mySidepanel").style.width = "350px";
+   productimg.src = "https://i.ibb.co/J7xmgzB/Screenshot-2024-01-24-9-16-01-AM.png";
    counter = 1;
  });
 
  product2.addEventListener("click", function() {
-   panel.style.display = "inline-block";
+  
    productpanimg.src = "https://i.ibb.co/7pbVttN/ezgif-7-07fce48017.gif";
-   blur.style.display = "inline-block";
    counter = 2;
  });
 
 
 
- ximg.addEventListener("click", function() {
-
-   panel.style.display = "none";
-   blur.style.display = "none";
-
- });
 
 
- // To increment the value of counter
- incrementBtn.addEventListener('click', () => {
-   counter++;
-   counterValue.innerHTML = counter;
- });
 
- // To decrement the value of counter
- decrementBtn.addEventListener('click', () => {
-   counter--;
-   counterValue.innerHTML = counter;
- });
 
- document.addEventListener('keydown', function(e) {
-   if (e.keyCode == 48)
-     location = "https://mintar.info.gf/0281/funkin.html"
- })
+
+ function openNav() {
+  document.getElementById("mySidepanel").style.width = "350px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+ 
+ 
