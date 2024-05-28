@@ -261,118 +261,18 @@ a {
   text-align: center
 }
 
-#productpan {
-  width: 93%;
-  background: black;
-  padding: 5px;
-  border: #CCC solid 1px;
-  text-align: center;
-  position: fixed;
-  margin-left: -20%;
-  margin-top: -30px;
-  left: 50%;
-  display: none;
-  z-index: 3;
-  width: 40%;
-  height: 80%;
-  max-width: 800px;
-  max-height: 600px;
-  border-radius: 25px;
-
-
-}
-
-#counter {
-  padding: 0px;
-  border: #CCC solid 0px;
-  position: absolute;
-  z-index: 1;
-  width: 130px;
-  height: 28px;
-  font-size: 30px;
-  top: 231px;
-  left: 240px;
-  border-radius: 25px;
-  color: white;
-  text-align: center;
-  vertical-align: baseline;
-  text-align: top;
-  display: inline;
-
-}
-
-#minuscounter {
-  padding: 0px;
-  border: #CCC solid 5px;
-  position: absolute;
-  z-index: 1;
-  width: 28px;
-  height: 28px;
-  font-size: 30px;
-  top: 234px;
-  left: 400px;
-  border-radius: 25px;
-  background-color: white;
-
-}
 
 
 
-#pluscounter {
-  padding: 0px;
-  border: #CCC solid 5px;
-  position: absolute;
-  z-index: 1;
-  width: 28px;
-  height: 28px;
-  font-size: 30px;
-  top: 234px;
-  left: 170px;
-  border-radius: 25px;
-  background-color: white;
-
-}
-
-#productpanimg {
-  position: absolute;
-  padding: 0px;
-  border: #CCC solid 5px;
-  z-index: 1;
-  width: 418px;
-  height: 222px;
-  border-radius: 25px;
-  left: 84px;
-
-}
-
-#addcart {
-
-  padding: 0px;
-  border: #CCC solid 5px;
-  position: absolute;
-  z-index: 1;
-  width: 208px;
-  height: 58px;
-  font-size: 30px;
-  top: 270px;
-  left: 200px;
-  border-radius: 25px;
 
 
-}
 
-#buynow {
-  padding: 0px;
-  border: #CCC solid 5px;
-  position: absolute;
-  z-index: 1;
-  width: 208px;
-  height: 58px;
-  font-size: 30px;
-  top: 340px;
-  left: 200px;
-  border-radius: 25px;
-}
+
+
+
+
+
+
 
 #productpanx {
   position: absolute;
@@ -508,17 +408,27 @@ footer {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 35px;
   line-height: 25px;
   border-radius: 4px;
+  margin-top:35px;
+  background-image: url("https://i.ibb.co/WHHHYXf/0005.png");
 
 }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-
+.weblogo{
+   width: 121px;
+  height: 105px;
+  position: relative;
+  top: 0px;
+  border: 1px solid black;
+  left: -0px;
+  
+  position:absolute;
+  background-image: url("https://i.ibb.co/0XmhS2Z/download-1-pngback.png")
 }
+
+
 
 .header a:hover {
   background-color: #FFFF;
@@ -559,6 +469,7 @@ footer {
 
 body {
   font-family: "Lato", sans-serif;
+  background-color:black;
 }
 
 .sidepanel {
@@ -572,16 +483,17 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  z-index:2;
+  z-index:5;
 }
 
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
   color: #FFFF;
   display: block;
   transition: 0.3s;
+  
 }
 
 .sidepanel a:hover {
@@ -609,11 +521,13 @@ body {
 }
 
 .blur {
-    background-color: #FFFF;
-
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: none;
+  height: 100vh;
+  z-index: 1;
   -webkit-backdrop-filter: blur(5px);
-
-  backdrop-filter: blur(10px);
-
-  padding: 20px 30px;
 }
