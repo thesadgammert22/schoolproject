@@ -12,7 +12,7 @@ body {
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 200;
-  G font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -274,18 +274,7 @@ a {
 
 
 
-#productpanx {
-  position: absolute;
-  padding: 5px;
-  left: 90%;
-  right: ;
-  text-align: center;
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-  z-index: 2;
-  border-radius: 25px;
-}
+
 
 #blur {
 
@@ -306,12 +295,13 @@ a {
 
 #product1 {
   width: 318px;
-  height: 424px;
+  height: 300px;
   position: relative;
   top: 260px;
   border: 7px solid #FFFF;
   left: -300px;
   border-radius: 25px;
+  background-image: url("https://i.ibb.co/7gbcLd9/download-1-pngback.png")
 
 
 }
@@ -330,7 +320,7 @@ a {
 
   border: 10px solid #0000;
   border-radius: 25px;
-  background-image: url(https://i.ibb.co/WpfdY0k/Screenshot-2024-01-24-9-15-55-AM.png);
+ 
 }
 
 #product2:hover {
@@ -420,9 +410,9 @@ footer {
    width: 121px;
   height: 105px;
   position: relative;
-  top: 0px;
+  top: 20px;
   border: 1px solid black;
-  left: -0px;
+  left: 20px;
   
   position:absolute;
   background-image: url("https://i.ibb.co/0XmhS2Z/download-1-pngback.png")
