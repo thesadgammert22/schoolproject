@@ -1,8 +1,10 @@
+document.addEventListener("keypress", function onEvent(event) {
+    if (event.key === "1") {
+        openFullscreen1();
+	}});
+
 var elem1 = document.getElementById("income");
-elem1.onclick = function(e) {
-openFullscreen1()
-}
-       
+
 function openFullscreen1() {
 
   if (elem1.requestFullscreen) {
@@ -15,14 +17,14 @@ function openFullscreen1() {
 }
 
 
-var elem2 = document.getElementById("budget");
-elem2.onclick = function(e) {
-openFullscreen2()
-}
-       
-/* Get the element you want displayed in fullscreen */ 
+document.addEventListener("keypress", function onEvent(event) {
+    if (event.key === "2") {
+        openFullscreen2();
+	}});
 
-/* Function to open fullscreen mode */
+var elem2 = document.getElementById("budget");
+       
+
 function openFullscreen2() {
 
   if (elem2.requestFullscreen) {
@@ -34,14 +36,14 @@ function openFullscreen2() {
   }
 }
 
-var elem3 = document.getElementById("summary");
-elem3.onclick = function(e) {
-openFullscreen3()
-}
-       
-/* Get the element you want displayed in fullscreen */ 
+document.addEventListener("keypress", function onEvent(event) {
+    if (event.key === "3") {
+        openFullscreen3();
+	}});
 
-/* Function to open fullscreen mode */
+var elem3 = document.getElementById("summary");
+       
+
 function openFullscreen3() {
 
   if (elem3.requestFullscreen) {
