@@ -2,8 +2,8 @@ var elem1 = document.getElementById("income");
 var elem2 = document.getElementById("budget");
 var elem3 = document.getElementById("summary");
 
-document.addEventListener("keypress", function onEvent(event) {
-    if (event.key === "1") {
+document.addEventListener("keypress", function onEvent(event1) {
+    if (event1.key === "1") {
         openFullscreen1();
 	}});
 
@@ -21,8 +21,8 @@ function openFullscreen1() {
 }
 
 
-document.addEventListener("keypress", function onEvent(event) {
-    if (event.key === "2") {
+document.addEventListener("keypress", function onEvent(event2) {
+    if (event2.key === "2") {
         openFullscreen2();
 	}});
 
@@ -39,8 +39,8 @@ function openFullscreen2() {
   }
 }
 
-document.addEventListener("keypress", function onEvent(event) {
-    if (event.key === "3") {
+document.addEventListener("keypress", function onEvent(event3) {
+    if (event3.key === "3") {
         openFullscreen3();
 	}});
        
