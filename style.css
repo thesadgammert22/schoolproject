@@ -202,17 +202,74 @@ a {
 
 }
 
+.videov2{
+    position: absolute;
+  top: 500px;
+  margin-left:600px;
+  border: 7px solid #FFFF;
+  border-radius: 25px;
+  
+ 
+}
+
+.budget{
+    position: relative;
+  top: 500px;
+  margin-left:600px;
+  border: 7px solid #FFFF;
+  border-radius: 25px;
+   width: 621px;
+  height: 405px;
+  
+ 
+}
+
+.income{
+    position: relative;
+  top: 500px;
+  margin-left:600px;
+  border: 7px solid #FFFF;
+  border-radius: 25px;
+   width: 621px;
+  height: 405px;
+  
+ 
+}
+
+.summary{
+    position: relative;
+  top: 500px;
+  margin-left:600px;
+  border: 7px solid #FFFF;
+  border-radius: 25px;
+   width: 321px;
+  height: 405px;
+  
+ 
+}
+
+.bincard{
+    position: relative;
+  top: 500px;
+  margin-left:600px;
+  border: 7px solid #FFFF;
+  border-radius: 25px;
+   width: 621px;
+  height: 505px;
+  
+ 
+}
+
 
 #bronch {
   width: 618px;
   height: 424px;
   position: relative;
   top: -100px;
+  left:400px;
   border: 7px solid #FFFF;
   border-radius: 25px;
-  margin-left: 25%;
-  margin-right: 100%;
-  margin-top: 0px;
+  
   text-align: center;
   position: relative;
 }
@@ -647,4 +704,3 @@ body {
   font-family: "Lato", sans-serif;
   background-color:black;
 }
-
